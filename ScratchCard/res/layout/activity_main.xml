@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scratch="http://schemas.android.com/apk/res/com.thb.scratchcard"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.thb.scratchcard.view.ScratchCard
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        scratch:src="@drawable/scratch"
+        scratch:text="@string/winning"
+        scratch:textColor="#FF0000"
+        scratch:textSize="20sp" />
+
+</RelativeLayout>
